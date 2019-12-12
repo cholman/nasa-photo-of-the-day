@@ -1,16 +1,18 @@
 import React from "react";
-import Date from "./components/date";
-import Apod from "./components/imgOfDay";
+import NasaCard from "./components/NasaCard";
 import "./App.css";
+
+
 
 function App() {
   return (
     <div className="App">
-      <Date />
-      <Apod />
+      
+      <NasaCard />
+      
       <p>
         Read through the instructions in the README.md file to build your NASA
-        app! Have fun 🚀!
+        app! Have fun!
       </p>
     </div>
   );
